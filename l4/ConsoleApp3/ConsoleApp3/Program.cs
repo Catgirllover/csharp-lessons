@@ -19,7 +19,7 @@ namespace ConsoleApp1
                     Console.WriteLine("Ваше число меньше загаданного");
                 else if (int.Parse(guessNum) > randNum)
                     Console.WriteLine("Ваше число больше загаданного");
-                if (guessNum == "")
+                else if (guessNum == "")
                 {
                     Console.WriteLine($"Загаданное число: {randNum}");
                     break;
